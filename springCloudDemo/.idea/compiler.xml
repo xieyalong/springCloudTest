@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springCloudDemo" />
+        <module name="cloud-provider-payment8001" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudproviderpayment8001" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
