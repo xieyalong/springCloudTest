@@ -39,7 +39,7 @@
     </properties>
     <!--
     dependencyManagement一般用在父工程，
-    子模块继承以后，提供作用：锁定版本+子modlue不用写groupId和version-->
+    子模块继承以后，提供作用：锁定版本并子modlue不用写groupId和version-->
     <dependencyManagement>
         <dependencies>
             <!--spring-boot版本号-->
