@@ -40,7 +40,10 @@
     <!--
     dependencyManagement一般用在父工程，
     子模块继承以后，
-    作用：设置版本号和子modlue（子工程）不用写groupId和version-->
+    作用：
+    1设置版本号和子modlue（子工程）不用写groupId和version，
+    2，只是声明定义子工程的版本号和jar，没有实际意义；整整引入jar的是子工程；
+    3，在子工程中如果没有写版本号，就去父工程找，找到了直接用全局统一-->
     <dependencyManagement>
         <dependencies>
             <!--spring-boot版本号-->
