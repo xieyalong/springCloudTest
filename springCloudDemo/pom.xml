@@ -10,7 +10,7 @@
     <artifactId>cloud2020</artifactId>
     <!--    jav maven坐标-->
     <version>1.0-SNAPSHOT</version>
-<!--    子项目（子模块）-->
+<!--    子项目（子模块） 8001是端口号在linux上是按照端口号部署的-->
     <modules>
         <module>cloud-provider-payment8001</module>
     </modules>
